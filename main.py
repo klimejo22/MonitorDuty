@@ -29,21 +29,21 @@ def assurance():
     enter()
     kb.press_and_release("c")
     for i in range(20):
-        print("DEBUG: " + str(i))
+        print("[INFO]: Assurance pressed")
         enter()
 def vow():
     kb.press_and_release("v+o+w")
     enter()
     kb.press_and_release("c")
     for i in range(20):
-        print("DEBUG: " + str(i))
+        print("[INFO]: " + "Vow pressed")
         enter()
 def adamance():
     kb.press_and_release("a+d+a")
     enter()
     kb.press_and_release("c")
     for i in range(20):
-        print("DEBUG: " + str(i))
+        print("[INFO]: " + "Adamance pressed")
         enter()
 
 
