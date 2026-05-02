@@ -1,8 +1,8 @@
 import keyboard as kb
 
 
-def on_press():
-    # simulace stisku více kláves najednou (např. Ctrl + C)
-    kb.press_and_release('ctrl+c')
+def viewMonitor():
+    kb.press_and_release('v+i+e+w+space+m+o+n+i+t+o+r')
 
-kb.add_hotkey('f', on_press)
+kb.add_hotkey('f', viewMonitor, suppress=True)
+kb.wait()
