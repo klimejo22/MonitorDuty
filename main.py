@@ -1,5 +1,6 @@
 import keyboard as kb
 from pynput import mouse
+import time as t
 
 # def on_click(x, y, button, pressed):
 #     if pressed:
@@ -16,6 +17,13 @@ def printStatus(status):
         return "ON"
     
     return "OFF"
+def toggle(state):
+    if state:
+        print("[DEBUG]: State is now False, was True")
+        return False
+    
+    print("[DEBUG]: State is now True, was False")
+    return True
 
 def viewMonitor():
     kb.press_and_release('v+i+e+w+space+m+o+n+i+t+o+r')
